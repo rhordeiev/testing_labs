@@ -1,0 +1,645 @@
+{
+  "id": "d1f6bc9a-838f-49f9-b51e-986260ab86ec",
+  "version": "2.0",
+  "name": "PetClinic",
+  "url": "http://20.82.57.125:8080",
+  "tests": [{
+    "id": "933fc3ec-d896-44f8-bafb-1f2edd5303e2",
+    "name": "TestCase1",
+    "commands": [{
+      "id": "e45165b6-8c65-4e68-8cd7-05a2feafb85c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dd0aec5-1ccf-4a7e-9b91-6ff0bf73d6e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab",
+      "targets": [
+        ["css=.ownerTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Owners')]", "xpath:link"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fd8cf26-82fb-42cb-b077-9337bfb7d169",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) > a",
+      "targets": [
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/owners')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b604c92c-d26a-4670-a07b-bf4c1590e7ba",
+    "name": "TestCase2",
+    "commands": [{
+      "id": "38d64775-434e-4b2c-a4ff-6e39822b2f6b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "530b7a07-5250-4d07-a892-7f96675c136e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vetsTab",
+      "targets": [
+        ["css=.vetsTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinarians')]", "xpath:link"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76094e33-0d5c-4934-926d-e58f314c8c04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) > a",
+      "targets": [
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/vets')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8f97f64c-3e41-490b-b203-6679fedfbc7f",
+    "name": "TestCase3",
+    "commands": [{
+      "id": "219edd3a-7ca4-4169-bb46-24360cd2b18c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8958a7fa-e2c9-44f2-8807-4ffd8db58b01",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(4) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "17ae5c91-2504-413b-9cec-4b6654ea7b8a",
+    "name": "TestCase4",
+    "commands": [{
+      "id": "80b627ef-6c1f-428d-a9bb-4b7f0be2ede8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47ab4b26-9b7b-4f6d-bea7-e4e209092daf",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > a",
+      "targets": [
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/specialties')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9c902e70-36f3-4ac9-9f33-7cb5b18fcdd8",
+    "name": "TestCase5",
+    "commands": [{
+      "id": "c35d647d-10f4-41e9-8d00-dfc6337da503",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac7af1c0-f9c7-4fa5-bef2-5601d59e7336",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab",
+      "targets": [
+        ["css=.ownerTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Owners')]", "xpath:link"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29659bc6-ed96-4359-92d7-2bcd060175dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(2) span:nth-child(2)",
+      "targets": [
+        ["css=.open li:nth-child(2) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5185972-75fc-4ed9-b11b-e4817a406504",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7c1e5c2-4b99-4b86-9e4a-ccd0f4635394",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Max"
+    }, {
+      "id": "74d037e2-0620-45e2-bcc5-4c2292a6429e",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caa19bbd-a168-4c01-83ef-8cb0021406c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Willing"
+    }, {
+      "id": "8135ad4b-0458-4725-bd7a-ab1e07be44e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=address",
+      "targets": [
+        ["id=address", "id"],
+        ["name=address", "name"],
+        ["css=#address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6da6271c-7da0-4f7f-acb7-9e35b879c258",
+      "comment": "",
+      "command": "type",
+      "target": "id=address",
+      "targets": [
+        ["id=address", "id"],
+        ["name=address", "name"],
+        ["css=#address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "6812 20th Ave, Brooklyn, NY 11204"
+    }, {
+      "id": "186095e0-9e90-4ce5-8d0a-ff660147da89",
+      "comment": "",
+      "command": "click",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2404564-2339-40e0-b238-36720e1a4365",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "New York"
+    }, {
+      "id": "ed182a42-a81f-4911-81ae-3e93a8b18b80",
+      "comment": "",
+      "command": "click",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5af28c78-ae8f-48e6-8431-d9a43fb2e73f",
+      "comment": "",
+      "command": "type",
+      "target": "id=telephone",
+      "targets": [
+        ["id=telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#telephone", "css:finder"],
+        ["xpath=//input[@id='telephone']", "xpath:attributes"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "1718232111"
+    }, {
+      "id": "dddba8cf-e899-4be0-9e6e-e3057dcdaa88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addOwner",
+      "targets": [
+        ["css=.addOwner", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Owner')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "918fa422-7c76-4c01-9f91-f0f0ef731285",
+    "name": "TestCase6",
+    "commands": [{
+      "id": "db5b99de-d740-4e27-92e2-963116e7ab04",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8c4552a-4882-4a77-aabe-515cb32b4973",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vetsTab",
+      "targets": [
+        ["css=.vetsTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinarians')]", "xpath:link"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45470f17-1d34-4f15-94ec-91c9fff3bd74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(2) > a",
+      "targets": [
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/vets/add')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "524bba6c-932d-4e4f-92a5-1715222c7b2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff97ae5b-b675-4a21-990f-312bb2248bc9",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Karen"
+    }, {
+      "id": "04cfb21f-b428-4a68-8c14-2b7c73b5df3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb7e614f-e9cb-4a2f-adce-c10d26ec48ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Berkly"
+    }, {
+      "id": "c60955fd-cf8e-45d6-aac8-28ea6c6494fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=specialties",
+      "targets": [
+        ["id=specialties", "id"],
+        ["name=specialties", "name"],
+        ["css=#specialties", "css:finder"],
+        ["xpath=//select[@id='specialties']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "850408f9-c7dc-41c8-860f-fa7e448197f6",
+      "comment": "",
+      "command": "select",
+      "target": "id=specialties",
+      "targets": [],
+      "value": "label=dentistry"
+    }, {
+      "id": "f2401dc1-3448-4bd9-9b28-27851881168a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.saveVet",
+      "targets": [
+        ["css=.saveVet", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[5]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Vet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "31f3776f-7f6f-4d0a-b78b-1bc318646b6f",
+    "name": "TestCase7",
+    "commands": [{
+      "id": "18e8782f-6a4e-4b9f-9610-72f917a73bb9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fcc586c-51e4-460f-be9b-200a76ee08d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > a",
+      "targets": [
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/pettypes')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "313212a5-47f8-4a86-8fc5-c5872d940bf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addPet",
+      "targets": [
+        ["css=.addPet", "css:finder"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6af1c899-873e-46b8-bdf4-cab16b25d4ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='pettype']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4477ffd-c82c-4d9c-ac09-1700ef0cd90e",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='pettype']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "racoon"
+    }, {
+      "id": "fdf1446e-81bd-4f89-959d-7b32d31f3f5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.saveType",
+      "targets": [
+        ["css=.saveType", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='pettype']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "00b266ce-d2be-42ac-9a40-08c92d77095f",
+    "name": "TestCase8",
+    "commands": [{
+      "id": "93bd2da6-e9e4-40b7-a38e-2acdfa08bd2b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ecae39c-b217-482e-95a6-f31d77efe3b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(4) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07627d15-d9f7-4d06-9cf8-a90ffc0c0cc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .editPet",
+      "targets": [
+        ["css=tr:nth-child(4) .editPet", "css:finder"],
+        ["xpath=//table[@id='pettypes']/tbody/tr[4]/td[2]/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebfa5269-43b9-45d7-8d2d-1a1d68c6ba4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='pettype']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62d64f1c-0829-4855-872c-16010bf8816e",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='pettype']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "mouse"
+    }, {
+      "id": "facf9b2b-0ad6-4ee2-a6f9-ad0e7fc3f412",
+      "comment": "",
+      "command": "click",
+      "target": "css=.updatePetType",
+      "targets": [
+        ["css=.updatePetType", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='pettype']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b130305-8fc7-4114-872a-c6366d49509e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ac105c74-46e1-44e8-bc0c-fbdfb89678ff",
+    "name": "TestCase9",
+    "commands": [{
+      "id": "c36b38d3-6746-4e55-bb6c-d22c26d8f95f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b962ff81-223d-4019-a99f-2d7afb33af1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(4) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c69414e8-e7ac-4252-b9fc-4370346ed28d",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=2",
+      "targets": [],
+      "value": "lizard"
+    }, {
+      "id": "18128839-afc3-44ba-ae13-8697b574a04d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .deletePet",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a4f75a97-ddf6-4ab6-97df-fb82db92dfec",
+    "name": "TestCase10",
+    "commands": [{
+      "id": "3d779f76-e113-47fc-ae0f-ba1c01a0588c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "386d9a69-7287-47f2-bbc3-b491f5353238",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > a",
+      "targets": [
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/pettypes')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aacbd61e-f525-4835-b0ef-e09ce48df488",
+      "comment": "",
+      "command": "click",
+      "target": "css=.returnHome",
+      "targets": [
+        ["css=.returnHome", "css:finder"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e0724b6b-b15c-4a86-8ca2-405fe5bd7910",
+    "name": "PetClinic Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["933fc3ec-d896-44f8-bafb-1f2edd5303e2", "b604c92c-d26a-4670-a07b-bf4c1590e7ba", "8f97f64c-3e41-490b-b203-6679fedfbc7f", "17ae5c91-2504-413b-9cec-4b6654ea7b8a", "9c902e70-36f3-4ac9-9f33-7cb5b18fcdd8", "918fa422-7c76-4c01-9f91-f0f0ef731285", "31f3776f-7f6f-4d0a-b78b-1bc318646b6f", "00b266ce-d2be-42ac-9a40-08c92d77095f", "ac105c74-46e1-44e8-bc0c-fbdfb89678ff", "a4f75a97-ddf6-4ab6-97df-fb82db92dfec"]
+  }],
+  "urls": ["http://20.82.57.125:8080/"],
+  "plugins": []
+}
