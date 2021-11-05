@@ -1,0 +1,25 @@
+{
+    "owner":{
+        "firstName":"Max",
+        "lastName":"Willing",
+        "address":"6812 20th Ave, Brooklyn, NY 11204",
+        "city":"New York",
+        "telephone":"1718232111"
+    },
+    "veterinarian":{
+        "firstName":"Karen",
+        "lastName":"Berkly",
+        "specialty":"dentistry"
+    },
+    "petTypes":[
+        {
+            "name":"racoon"
+        },
+        {
+            "name":"mouse"
+        },
+        {
+            "name":"lizard"
+        }
+    ]
+}
