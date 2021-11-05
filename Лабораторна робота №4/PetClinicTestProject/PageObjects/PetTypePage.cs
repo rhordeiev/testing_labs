@@ -15,7 +15,6 @@ public class PetTypePage {
     public PetTypePage(IWebDriver driver) {
         this.driver = driver;
     }
-    public IWebElement petTypeTab => driver.FindElement(By.CssSelector("li:nth-child(4) span:nth-child(2)"));
     public IWebElement addPetTypeButton => driver.FindElement(By.CssSelector(".addPet"));
     public IWebElement editPetTypeButton => driver.FindElement(By.CssSelector("tr:nth-child(4) .editPet"));
     public IWebElement nameField => driver.FindElement(By.Id("name"));

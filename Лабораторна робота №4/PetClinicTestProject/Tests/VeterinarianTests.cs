@@ -15,15 +15,15 @@ using NUnit.Framework;
 public class VeterinarianTests:TestBase {
   [Test]
   public void addVeterinarianTestCase() {
-    var veterinarianPage = new VeterinarianPage(driver);
-    veterinarianPage.veterinarianTab.Click();
-    veterinarianPage.veterinarianTabAddNewDropdown.Click();
+    var newVeterinarianPage = new NewVeterinarianPage(driver);
+    driver.FindElement(By.CssSelector(".vetsTab")).Click();
+    driver.FindElement(By.CssSelector(".open li:nth-child(2) > a")).Click();
     Wait();
-    veterinarianPage.firstNameField.Click();
-    veterinarianPage.firstNameField.SendKeys("Karen");
-    veterinarianPage.firstNameField.Click();
-    veterinarianPage.firstNameField.SendKeys("Berkly");
-    veterinarianPage.selectSpecialty("dentistry");
-    veterinarianPage.addVeterinarianButton.Click();
+    newVeterinarianPage.firstNameField.Click();
+    newVeterinarianPage.firstNameField.SendKeys("Karen");
+    newVeterinarianPage.firstNameField.Click();
+    newVeterinarianPage.firstNameField.SendKeys("Berkly");
+    newVeterinarianPage.selectSpecialty("dentistry");
+    newVeterinarianPage.addVeterinarianButton.Click();
   }
 }

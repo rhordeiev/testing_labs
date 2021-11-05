@@ -10,14 +10,12 @@ using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Interactions;
 using NUnit.Framework;
-public class VeterinarianPage {
+public class NewVeterinarianPage {
     private IWebDriver driver;
 
-    public VeterinarianPage(IWebDriver driver) {
+    public NewVeterinarianPage(IWebDriver driver) {
         this.driver = driver;
     }
-    public IWebElement veterinarianTab => driver.FindElement(By.CssSelector(".vetsTab"));
-    public IWebElement veterinarianTabAddNewDropdown => driver.FindElement(By.CssSelector(".open li:nth-child(2) > a"));
     public IWebElement firstNameField => driver.FindElement(By.Id("firstName"));
     public IWebElement lastNameField => driver.FindElement(By.Id("lastName"));
     public void selectSpecialty(string specialty) {
