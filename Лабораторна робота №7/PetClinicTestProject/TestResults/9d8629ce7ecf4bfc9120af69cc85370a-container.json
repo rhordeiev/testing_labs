@@ -1,0 +1,44 @@
+{
+  "uuid": "a499fda1-3de4-4d02-bcb5-f42ae61524ef-tc-0-1005",
+  "name": "OwnerTests.addOwnerTestCase",
+  "children": [
+    "d0d2863f-a6f2-4b87-a143-f076d298a7ee-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1637336397902,
+      "stop": 1637336397902
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1637336397902,
+      "stop": 1637336397902
+    }
+  ],
+  "links": [],
+  "start": 1637336369751,
+  "stop": 1637336397904
+}

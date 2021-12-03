@@ -1,0 +1,95 @@
+{
+  "uuid": "ef84b951-5df2-4b19-b7cc-5c24d3f88926-tr-0-1037",
+  "historyId": "VisitTests.addVisitTestCase(\"Second Visit\")",
+  "fullName": "VisitTests.addVisitTestCase(\"Second Visit\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "VisitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addVisitTestCase"
+    },
+    {
+      "name": "package",
+      "value": "VisitTests"
+    },
+    {
+      "name": "suite",
+      "value": "Veterinarian"
+    }
+  ],
+  "links": [],
+  "name": "addVisitTestCase(\"Second Visit\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentException : elementDictionary (Parameter 'The specified dictionary does not contain an element reference')\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+    "trace": "   at OpenQA.Selenium.WebElementFactory.GetElementId(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebElementFactory.CreateElement(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebDriver.GetElementFromResponse(Response response)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NavigationComponent.get_ownerTab() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 11\r\n   at NavigationComponent.__a$_around_openOwnersListPage_100663304_o() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 20\r\n   at NavigationComponent.__a$_around_openOwnersListPage_100663304_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NavigationComponent.__a$_around_openOwnersListPage_100663304_w_0(Object[] )\r\n   at NavigationComponent.openOwnersListPage()\r\n   at VisitTests.addVisitTestCase(String description) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\VisitTests.cs:line 16\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+  },
+  "stage": "finished",
+  "description": "\nTearDown TearDown method failed\nChecks that visit adds successfully\n",
+  "steps": [
+    {
+      "name": "addVisitTestCase(\"Second Visit\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentException : elementDictionary (Parameter 'The specified dictionary does not contain an element reference')\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+        "trace": "   at OpenQA.Selenium.WebElementFactory.GetElementId(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebElementFactory.CreateElement(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebDriver.GetElementFromResponse(Response response)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NavigationComponent.get_ownerTab() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 11\r\n   at NavigationComponent.__a$_around_openOwnersListPage_100663304_o() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 20\r\n   at NavigationComponent.__a$_around_openOwnersListPage_100663304_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NavigationComponent.__a$_around_openOwnersListPage_100663304_w_0(Object[] )\r\n   at NavigationComponent.openOwnersListPage()\r\n   at VisitTests.addVisitTestCase(String description) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\VisitTests.cs:line 16\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "elementDictionary (Parameter 'The specified dictionary does not contain an element reference')",
+            "trace": "   at OpenQA.Selenium.WebElementFactory.GetElementId(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebElementFactory.CreateElement(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebDriver.GetElementFromResponse(Response response)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NavigationComponent.get_ownerTab() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 11\r\n   at NavigationComponent.__a$_around_openOwnersListPage_100663304_o() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 20\r\n   at NavigationComponent.__a$_around_openOwnersListPage_100663304_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497811024,
+          "stop": 1638497811026
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8c40fe88b45740178762c4714d0af945-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497673376,
+      "stop": 1638497811030
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Second Visit"
+    }
+  ],
+  "start": 1638497673376,
+  "stop": 1638497811030
+}

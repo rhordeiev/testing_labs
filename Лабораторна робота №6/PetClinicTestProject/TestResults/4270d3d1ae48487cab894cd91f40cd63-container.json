@@ -1,0 +1,44 @@
+{
+  "uuid": "eedd3234-324f-4f76-b4e0-837448af021c-tc-0-1006",
+  "name": "PetTypeTests.editPetTypeTestCase",
+  "children": [
+    "a4d27c74-3b86-4d66-8127-cc7a7398082d-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638491149701,
+      "stop": 1638491149701
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638491149701,
+      "stop": 1638491149701
+    }
+  ],
+  "links": [],
+  "start": 1638491127504,
+  "stop": 1638491149702
+}

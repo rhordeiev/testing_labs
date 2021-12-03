@@ -1,0 +1,64 @@
+{
+  "uuid": "12162aa6-6323-4c95-bce0-67d1e8c9eb16-tr-0-1009",
+  "historyId": "PetTypeTests.editPetTypeTestCase",
+  "fullName": "PetTypeTests.editPetTypeTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "editPetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    }
+  ],
+  "links": [],
+  "name": "editPetTypeTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "editPetTypeTestCase"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "editPetTypeTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3c84527ad6a845ff8d6bdfb1b16febaa-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637335727691,
+      "stop": 1637335764294
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637335727691,
+  "stop": 1637335764294
+}

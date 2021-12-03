@@ -1,0 +1,105 @@
+{
+  "uuid": "277b9754-66e4-4fcd-81df-22496db5cc2d-tr-0-1038",
+  "historyId": "VisitTests.addVisitTestCase(\"Third Visit\")",
+  "fullName": "VisitTests.addVisitTestCase(\"Third Visit\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "VisitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addVisitTestCase"
+    },
+    {
+      "name": "package",
+      "value": "VisitTests"
+    },
+    {
+      "name": "suite",
+      "value": "Veterinarian"
+    }
+  ],
+  "links": [],
+  "name": "addVisitTestCase(\"Third Visit\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addVisitTestCase(\"Third Visit\")"
+  },
+  "stage": "finished",
+  "description": "Checks that visit adds successfully\n",
+  "steps": [
+    {
+      "name": "addVisitTestCase(\"Third Visit\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497868278,
+          "stop": 1638497868609
+        },
+        {
+          "name": "Select pet's visit date",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497877804,
+          "stop": 1638497877954
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d273ae045a0d433994e74af5f5aaf082-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497811032,
+      "stop": 1638497881313
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Third Visit"
+    }
+  ],
+  "start": 1638497811032,
+  "stop": 1638497881314
+}

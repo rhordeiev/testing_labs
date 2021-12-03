@@ -1,0 +1,61 @@
+{
+  "uuid": "5a5a2ce2-ee8b-410e-8010-202fc9ff12e5-tc-0-1016",
+  "name": "PetTypeTests.addPetTypeTestCase(\"rabbit\")",
+  "children": [
+    "83518c32-c859-4c93-b111-14269f600a64-tr-0-1018"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638495936460,
+      "stop": 1638495936460
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: chrome=96.0.4664.45)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638495936460,
+      "stop": 1638495936460
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638495936460,
+      "stop": 1638495936460
+    }
+  ],
+  "links": [],
+  "start": 1638495870224,
+  "stop": 1638495936469
+}

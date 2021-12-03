@@ -1,0 +1,98 @@
+{
+  "uuid": "e92242bf-fb2a-44b1-a98e-d769a83a1122-tr-0-1021",
+  "historyId": "PetTypeTests.editPetTypeTestCase(\"lizard\")",
+  "fullName": "PetTypeTests.editPetTypeTestCase(\"lizard\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "editPetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "editPetTypeTestCase(\"lizard\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 1\r\n  But was:  0\r\n",
+    "trace": "   at PetTypeTests.editPetTypeTestCase(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 36\r\n"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type updates successfully\n",
+  "steps": [
+    {
+      "name": "editPetTypeTestCase(\"lizard\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 1\r\n  But was:  0\r\n",
+        "trace": "   at PetTypeTests.editPetTypeTestCase(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 36\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet type page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496759369,
+          "stop": 1638496759433
+        }
+      ],
+      "attachments": [
+        {
+          "name": "editPetTypeTestCase_screenshot_637741007726031980.png",
+          "source": "62b156de8175446eb35ae9493682637e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9b3fe0ab317f4fcaaf37d78871f2ce0e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638496739867,
+      "stop": 1638496775091
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "lizard"
+    }
+  ],
+  "start": 1638496739867,
+  "stop": 1638496775091
+}

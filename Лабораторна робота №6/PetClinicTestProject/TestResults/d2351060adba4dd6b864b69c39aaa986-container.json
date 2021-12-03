@@ -1,0 +1,59 @@
+{
+  "uuid": "196ec4a8-19be-4a7f-8d1e-f58b5f91bb25-tc-0-1006",
+  "name": "PetTests.addPetTestCase(\"Apricot\")",
+  "children": [
+    "821a1c77-8f28-470f-9c39-220469ef380b-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496605846,
+      "stop": 1638496605846
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496605846,
+      "stop": 1638496605846
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496605846,
+      "stop": 1638496605846
+    }
+  ],
+  "links": [],
+  "start": 1638496471320,
+  "stop": 1638496606072
+}

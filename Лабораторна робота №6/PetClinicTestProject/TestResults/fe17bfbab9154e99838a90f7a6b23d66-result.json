@@ -1,0 +1,100 @@
+{
+  "uuid": "e4a52e22-b96d-46d4-8e32-0b4e82c7b343-tr-0-1014",
+  "historyId": "VisitTests.addVisitTestCase",
+  "fullName": "VisitTests.addVisitTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "VisitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addVisitTestCase"
+    },
+    {
+      "name": "package",
+      "value": "VisitTests"
+    },
+    {
+      "name": "suite",
+      "value": "Veterinarian"
+    }
+  ],
+  "links": [],
+  "name": "addVisitTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addVisitTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks that visit adds successfully\n",
+  "steps": [
+    {
+      "name": "addVisitTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491205211,
+          "stop": 1638491205320
+        },
+        {
+          "name": "Select pet's visit date",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491214521,
+          "stop": 1638491214667
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f1914b06865d4d7c9e02d6791c7ba5fd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638491192652,
+      "stop": 1638491218224
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1638491192652,
+  "stop": 1638491218224
+}

@@ -1,0 +1,69 @@
+{
+  "uuid": "127ae821-fd31-475f-92dc-1d2b28ce2c74-tr-0-1004",
+  "historyId": "NavigationTests.specialtiesTabTestCase",
+  "fullName": "NavigationTests.specialtiesTabTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "specialtiesTabTestCase"
+    },
+    {
+      "name": "package",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    }
+  ],
+  "links": [],
+  "name": "specialtiesTabTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "specialtiesTabTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks specialty tab accessability\n",
+  "steps": [
+    {
+      "name": "specialtiesTabTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "12a5ae88ba5444afa9bc57dae6df87d5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637339941890,
+      "stop": 1637340022586
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637339941890,
+  "stop": 1637340022586
+}

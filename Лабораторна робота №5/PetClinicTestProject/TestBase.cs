@@ -12,8 +12,10 @@ public class TestBase {
   private IJavaScriptExecutor js;
   public Pages pages { get; set; }
   public OwnerSection owner { get; set; }
+  public PetSection pets { get; set; }
   public VeterinarianSection veterinarian { get; set; }
   public PetTypeSection petTypes { get; set; }
+  public VisitSection visit { get; set; }
   private IConfigurationRoot configuration { get; set; }
 
     [SetUp]
@@ -21,7 +23,7 @@ public class TestBase {
       driver = new ChromeDriver();
       js = (IJavaScriptExecutor)driver;
       vars = new Dictionary<string, object>();
-      driver.Navigate().GoToUrl("http://20.82.57.125:8080/");
+      driver.Navigate().GoToUrl("http://20.50.171.10:8080/");
       pages = new Pages(driver);
       getTestData();
    }
@@ -38,9 +40,13 @@ public class TestBase {
         .Build();
     owner = new OwnerSection(configuration);
     configuration.GetSection("owner").Bind(owner);
+    pets = new PetSection(configuration);
+    configuration.GetSection("pets").Bind(pets);
     veterinarian = new VeterinarianSection(configuration);
     configuration.GetSection("veterinarian").Bind(veterinarian);
     petTypes = new PetTypeSection(configuration);
     configuration.GetSection("petTypes").Bind(petTypes);
+    visit = new VisitSection(configuration);
+    configuration.GetSection("visit").Bind(visit);
   }
 }

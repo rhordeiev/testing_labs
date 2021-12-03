@@ -1,0 +1,72 @@
+{
+  "uuid": "8ba6fd6f-f043-4337-81d2-6616bf4fcf83-tr-0-1010",
+  "historyId": "PetTypeTests.deletePetTypeTestCase",
+  "fullName": "PetTypeTests.deletePetTypeTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "deletePetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    }
+  ],
+  "links": [],
+  "name": "deletePetTypeTestCase",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 6 but was 15. Strings differ at index 0.\r\n  Expected: \"lizard\"\r\n  But was:  \"pet type 1mouse\"\r\n  -----------^\r\n",
+    "trace": "   at PetTypeTests.deletePetTypeTestCase() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №6\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 28\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "deletePetTypeTestCase",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 6 but was 15. Strings differ at index 0.\r\n  Expected: \"lizard\"\r\n  But was:  \"pet type 1mouse\"\r\n  -----------^\r\n",
+        "trace": "   at PetTypeTests.deletePetTypeTestCase() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №6\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 28\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "deletePetTypeTestCase_screenshot_637729397259330847.png",
+          "source": "e4f38dfb44f3408ebc67d5ddc2369547-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "138a16afdcc34da08e7fae69e016f1b4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637335710330,
+      "stop": 1637335727687
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637335710330,
+  "stop": 1637335727687
+}

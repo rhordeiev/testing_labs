@@ -1,0 +1,44 @@
+{
+  "uuid": "9944ad71-9864-49cc-a6ac-5f0b7cb13753-tc-0-1000",
+  "name": "NavigationTests.veterinarianTabTestCase",
+  "children": [
+    "a28073b3-f487-47e9-8caf-b687db6e142e-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1637340109878,
+      "stop": 1637340109878
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1637340109878,
+      "stop": 1637340109878
+    }
+  ],
+  "links": [],
+  "start": 1637340022588,
+  "stop": 1637340109883
+}

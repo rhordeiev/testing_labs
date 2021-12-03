@@ -1,0 +1,125 @@
+{
+  "uuid": "14e4fc58-d845-4be7-84e2-7d740096dc33-tr-0-1003",
+  "historyId": "PetTests.addPetTestCase",
+  "fullName": "PetTests.addPetTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addPetTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTests"
+    },
+    {
+      "name": "suite",
+      "value": "Pet"
+    }
+  ],
+  "links": [],
+  "name": "addPetTestCase",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Cannot locate element with text: lizard",
+    "trace": "   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text, Boolean partialMatch)\r\n   at PetPage.__a$_around_selectPetType_100663353_o(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №6\\PetClinicTestProject\\PageObjects\\PetPage.cs:line 12\r\n   at PetPage.__a$_around_selectPetType_100663353_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at PetPage.__a$_around_selectPetType_100663353_w_0(Object[] )\r\n   at PetPage.selectPetType(String petType)\r\n   at PetTests.addPetTestCase() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №6\\PetClinicTestProject\\Tests\\PetTests.cs:line 19"
+  },
+  "stage": "finished",
+  "description": "Checks that pet adds successfully\n",
+  "steps": [
+    {
+      "name": "addPetTestCase",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Cannot locate element with text: lizard",
+        "trace": "   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text, Boolean partialMatch)\r\n   at PetPage.__a$_around_selectPetType_100663353_o(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №6\\PetClinicTestProject\\PageObjects\\PetPage.cs:line 12\r\n   at PetPage.__a$_around_selectPetType_100663353_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at PetPage.__a$_around_selectPetType_100663353_w_0(Object[] )\r\n   at PetPage.selectPetType(String petType)\r\n   at PetTests.addPetTestCase() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №6\\PetClinicTestProject\\Tests\\PetTests.cs:line 19"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491019611,
+          "stop": 1638491019722
+        },
+        {
+          "name": "Select pet's date",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491029046,
+          "stop": 1638491029378
+        },
+        {
+          "name": "Select pet type",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Cannot locate element with text: lizard",
+            "trace": "   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text, Boolean partialMatch)\r\n   at PetPage.__a$_around_selectPetType_100663353_o(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №6\\PetClinicTestProject\\PageObjects\\PetPage.cs:line 12\r\n   at PetPage.__a$_around_selectPetType_100663353_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491029379,
+          "stop": 1638491029755
+        }
+      ],
+      "attachments": [
+        {
+          "name": "addPetTestCase_screenshot_637740950300051840.png",
+          "source": "475b7f146345450c9b073c89b6e2baa0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "1e2648db175e42fcbdc2e6c43b4920ba-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638491009119,
+      "stop": 1638491030068
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1638491009119,
+  "stop": 1638491030068
+}

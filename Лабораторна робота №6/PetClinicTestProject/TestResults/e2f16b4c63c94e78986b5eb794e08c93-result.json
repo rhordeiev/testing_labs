@@ -1,0 +1,98 @@
+{
+  "uuid": "c71dacd2-7130-44f6-8ad7-6e31d976eb04-tr-0-1023",
+  "historyId": "PetTypeTests.editPetTypeTestCase(\"hamster\")",
+  "fullName": "PetTypeTests.editPetTypeTestCase(\"hamster\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "editPetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "editPetTypeTestCase(\"hamster\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 1\r\n  But was:  0\r\n",
+    "trace": "   at PetTypeTests.editPetTypeTestCase(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 36\r\n"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type updates successfully\n",
+  "steps": [
+    {
+      "name": "editPetTypeTestCase(\"hamster\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 1\r\n  But was:  0\r\n",
+        "trace": "   at PetTypeTests.editPetTypeTestCase(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 36\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet type page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496897916,
+          "stop": 1638496897987
+        }
+      ],
+      "attachments": [
+        {
+          "name": "editPetTypeTestCase_screenshot_637741009074110775.png",
+          "source": "9fba0272dabc43d087669575199efa9c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "c2d1afc252954b92be484870be5f5cf5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638496848823,
+      "stop": 1638496908560
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "hamster"
+    }
+  ],
+  "start": 1638496848823,
+  "stop": 1638496908560
+}

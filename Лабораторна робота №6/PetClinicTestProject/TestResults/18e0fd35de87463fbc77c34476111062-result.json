@@ -1,0 +1,120 @@
+{
+  "uuid": "81706fd4-2559-4414-b052-760c97f0bfab-tr-0-1002",
+  "historyId": "OwnerTests.addOwnerTestCase(\"Max\")",
+  "fullName": "OwnerTests.addOwnerTestCase(\"Max\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addOwnerTestCase"
+    },
+    {
+      "name": "package",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "suite",
+      "value": "Owner"
+    }
+  ],
+  "links": [],
+  "name": "addOwnerTestCase(\"Max\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addOwnerTestCase(\"Max\")"
+  },
+  "stage": "finished",
+  "description": "Checks that owner adds successfully\n",
+  "steps": [
+    {
+      "name": "addOwnerTestCase(\"Max\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496408657,
+          "stop": 1638496410926
+        },
+        {
+          "name": "Open new owner page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496414090,
+          "stop": 1638496416659
+        },
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496418882,
+          "stop": 1638496419417
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e02f4228197049eaa1779b41c1d8a764-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638496312955,
+      "stop": 1638496427060
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Max"
+    }
+  ],
+  "start": 1638496312954,
+  "stop": 1638496427060
+}

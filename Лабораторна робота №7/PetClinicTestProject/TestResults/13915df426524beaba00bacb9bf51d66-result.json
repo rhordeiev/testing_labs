@@ -1,0 +1,68 @@
+{
+  "uuid": "eeee35d6-d3fe-487b-8760-3af6b1aa94c9-tr-0-1001",
+  "historyId": "NavigationTests.ownerTabTestCase",
+  "fullName": "NavigationTests.ownerTabTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ownerTabTestCase"
+    },
+    {
+      "name": "package",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation"
+    }
+  ],
+  "links": [],
+  "name": "ownerTabTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ownerTabTestCase"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ownerTabTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "960965867e7f47c6994134f3ed1a39c3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637335608646,
+      "stop": 1637335651976
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637335608645,
+  "stop": 1637335651979
+}

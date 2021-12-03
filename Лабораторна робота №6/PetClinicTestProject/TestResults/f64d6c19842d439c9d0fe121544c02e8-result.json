@@ -1,0 +1,135 @@
+{
+  "uuid": "db2eee12-59d4-4ddd-be20-9b35a23c51f6-tr-0-1033",
+  "historyId": "VeterinarianTests.addVeterinarianTestCase(\"Phill\")",
+  "fullName": "VeterinarianTests.addVeterinarianTestCase(\"Phill\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "VeterinarianTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addVeterinarianTestCase"
+    },
+    {
+      "name": "package",
+      "value": "VeterinarianTests"
+    },
+    {
+      "name": "suite",
+      "value": "Veterinarian"
+    }
+  ],
+  "links": [],
+  "name": "addVeterinarianTestCase(\"Phill\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addVeterinarianTestCase(\"Phill\")"
+  },
+  "stage": "finished",
+  "description": "Checks that veterinarian adds successfully\n",
+  "steps": [
+    {
+      "name": "addVeterinarianTestCase(\"Phill\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open veterinarians list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497870257,
+          "stop": 1638497871074
+        },
+        {
+          "name": "Open new veterinarian page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497874102,
+          "stop": 1638497875181
+        },
+        {
+          "name": "Select veterinarian's specialty",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497878825,
+          "stop": 1638497881284
+        },
+        {
+          "name": "Open veterinarians list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497884545,
+          "stop": 1638497885005
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6cdd453f5990475fa857354f41a1f1eb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497834250,
+      "stop": 1638497890599
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Phill"
+    }
+  ],
+  "start": 1638497834250,
+  "stop": 1638497890599
+}

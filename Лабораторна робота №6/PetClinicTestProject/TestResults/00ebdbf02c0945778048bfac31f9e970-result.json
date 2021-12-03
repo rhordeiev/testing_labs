@@ -1,0 +1,82 @@
+{
+  "uuid": "2aabbeef-ec57-458d-a3b5-125adf0e1ae5-tr-0-1025",
+  "historyId": "PetTypeTests.deletePetTypeTestCase(\"lizard\")",
+  "fullName": "PetTypeTests.deletePetTypeTestCase(\"lizard\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "deletePetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "deletePetTypeTestCase(\"lizard\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: chrome=96.0.4664.45)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24"
+  },
+  "stage": "finished",
+  "description": "\ninitializeBrowser SetUp method failed\nChecks that pet type deletes successfully\n",
+  "steps": [
+    {
+      "name": "deletePetTypeTestCase(\"lizard\") skipped because of SetUp failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: chrome=96.0.4664.45)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "deletePetTypeTestCase_screenshot_637741001094352090.png",
+          "source": "b66ee7884d874eb2b74ec6229ddad9f0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ea00a66fcc4a4141a13c8bf572edd936-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638496050155,
+      "stop": 1638496109508
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "lizard"
+    }
+  ],
+  "start": 1638496050155,
+  "stop": 1638496109509
+}

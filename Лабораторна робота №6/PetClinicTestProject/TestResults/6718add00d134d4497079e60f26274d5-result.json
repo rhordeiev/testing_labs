@@ -1,0 +1,115 @@
+{
+  "uuid": "159609c7-f064-4527-908c-b190016e73eb-tr-0-1001",
+  "historyId": "OwnerTests.addOwnerTestCase",
+  "fullName": "OwnerTests.addOwnerTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addOwnerTestCase"
+    },
+    {
+      "name": "package",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "suite",
+      "value": "Owner"
+    }
+  ],
+  "links": [],
+  "name": "addOwnerTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addOwnerTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks that owner adds successfully\n",
+  "steps": [
+    {
+      "name": "addOwnerTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491001649,
+          "stop": 1638491002017
+        },
+        {
+          "name": "Open new owner page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491005047,
+          "stop": 1638491005160
+        },
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491005860,
+          "stop": 1638491005946
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "778ee5df002f43b1a79794a51d1c3212-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638490940173,
+      "stop": 1638491009073
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1638490940172,
+  "stop": 1638491009078
+}

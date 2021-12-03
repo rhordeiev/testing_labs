@@ -1,0 +1,100 @@
+{
+  "uuid": "587355ef-9fa1-4a67-a972-767eb59b83fa-tr-0-1005",
+  "historyId": "PetTests.deletePetTestCase",
+  "fullName": "PetTests.deletePetTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "deletePetTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTests"
+    },
+    {
+      "name": "suite",
+      "value": "Pet"
+    }
+  ],
+  "links": [],
+  "name": "deletePetTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "deletePetTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks that pet deletes successfully\n",
+  "steps": [
+    {
+      "name": "deletePetTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638493853419,
+          "stop": 1638493853547
+        },
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638493862792,
+          "stop": 1638493862914
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b522fc1e719a415e8edb95da71da86c6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638493792188,
+      "stop": 1638493869068
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1638493792188,
+  "stop": 1638493869069
+}

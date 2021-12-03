@@ -1,0 +1,77 @@
+{
+  "uuid": "071ee5f4-9295-479a-a06c-8bc0dc378fc0-tr-0-1017",
+  "historyId": "PetTypeTests.addPetTypeTestCase(\"lizard\")",
+  "fullName": "PetTypeTests.addPetTypeTestCase(\"lizard\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addPetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "addPetTypeTestCase(\"lizard\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+    "trace": "   at OpenQA.Selenium.Response..ctor(Dictionary`2 rawResponse)\r\n   at OpenQA.Selenium.Response.FromJson(String value)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(HttpResponseInfo responseInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+  },
+  "stage": "finished",
+  "description": "\ninitializeBrowser SetUp method failed\n\nTearDown TearDown method failed\nChecks that pet type adds successfully\n",
+  "steps": [
+    {
+      "name": "addPetTypeTestCase(\"lizard\") skipped because of SetUp failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+        "trace": "   at OpenQA.Selenium.Response..ctor(Dictionary`2 rawResponse)\r\n   at OpenQA.Selenium.Response.FromJson(String value)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(HttpResponseInfo responseInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fe21d4fe4248412fabc6673e2a5822b7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638495686876,
+      "stop": 1638495870222
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "lizard"
+    }
+  ],
+  "start": 1638495686875,
+  "stop": 1638495870223
+}

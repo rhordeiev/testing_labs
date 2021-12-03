@@ -13,7 +13,7 @@ public class TestBase {
     driver = new ChromeDriver();
     js = (IJavaScriptExecutor)driver;
     vars = new Dictionary<string, object>();
-    driver.Navigate().GoToUrl("http://20.82.57.125:8080/");
+    driver.Navigate().GoToUrl("http://20.50.171.10:8080/");
   }
   [TearDown]
   protected void TearDown() {

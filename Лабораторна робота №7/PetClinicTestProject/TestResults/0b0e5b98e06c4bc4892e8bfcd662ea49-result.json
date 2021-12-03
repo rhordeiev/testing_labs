@@ -1,0 +1,64 @@
+{
+  "uuid": "684631bd-8660-4826-a2a9-2e7dfc80e560-tr-0-1003",
+  "historyId": "NavigationTests.petTypeTabTestCase",
+  "fullName": "NavigationTests.petTypeTabTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "petTypeTabTestCase"
+    },
+    {
+      "name": "package",
+      "value": "NavigationTests"
+    }
+  ],
+  "links": [],
+  "name": "petTypeTabTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "petTypeTabTestCase"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "petTypeTabTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9c6cfea988ff4be39ee1b32e805591b9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637335652027,
+      "stop": 1637335664496
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637335652027,
+  "stop": 1637335664496
+}

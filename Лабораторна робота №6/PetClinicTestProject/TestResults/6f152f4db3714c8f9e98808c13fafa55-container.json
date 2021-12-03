@@ -1,0 +1,59 @@
+{
+  "uuid": "4472e6ed-dde7-4162-b11a-7af5fb6b1eb1-tc-0-1016",
+  "name": "PetTypeTests.editPetTypeTestCase(\"lizard\")",
+  "children": [
+    "e92242bf-fb2a-44b1-a98e-d769a83a1122-tr-0-1021"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496775090,
+      "stop": 1638496775090
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496775090,
+      "stop": 1638496775090
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496775090,
+      "stop": 1638496775090
+    }
+  ],
+  "links": [],
+  "start": 1638496739867,
+  "stop": 1638496775092
+}

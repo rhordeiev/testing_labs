@@ -1,0 +1,59 @@
+{
+  "uuid": "5902dcff-93c9-4f9e-a4ac-19ea464255fe-tc-0-1016",
+  "name": "PetTypeTests.deletePetTypeTestCase(\"hamster\")",
+  "children": [
+    "43d21247-828a-4fe5-9b41-e7e99a3ba5c0-tr-0-1027"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638497957436,
+      "stop": 1638497957436
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638497957436,
+      "stop": 1638497957436
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638497957436,
+      "stop": 1638497957436
+    }
+  ],
+  "links": [],
+  "start": 1638497936967,
+  "stop": 1638497957437
+}

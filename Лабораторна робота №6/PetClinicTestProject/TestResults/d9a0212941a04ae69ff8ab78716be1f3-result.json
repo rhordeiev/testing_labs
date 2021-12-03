@@ -1,0 +1,95 @@
+{
+  "uuid": "c88bb49c-34aa-4d01-85c2-09e75b2634b2-tr-0-1032",
+  "historyId": "VeterinarianTests.addVeterinarianTestCase(\"Nick\")",
+  "fullName": "VeterinarianTests.addVeterinarianTestCase(\"Nick\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "VeterinarianTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addVeterinarianTestCase"
+    },
+    {
+      "name": "package",
+      "value": "VeterinarianTests"
+    },
+    {
+      "name": "suite",
+      "value": "Veterinarian"
+    }
+  ],
+  "links": [],
+  "name": "addVeterinarianTestCase(\"Nick\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentException : elementDictionary (Parameter 'The specified dictionary does not contain an element reference')\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+    "trace": "   at OpenQA.Selenium.WebElementFactory.GetElementId(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebElementFactory.CreateElement(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebDriver.GetElementFromResponse(Response response)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NavigationComponent.get_veterinarianTab() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 13\r\n   at NavigationComponent.__a$_around_openVeterinariansListPage_100663305_o() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 25\r\n   at NavigationComponent.__a$_around_openVeterinariansListPage_100663305_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NavigationComponent.__a$_around_openVeterinariansListPage_100663305_w_0(Object[] )\r\n   at NavigationComponent.openVeterinariansListPage()\r\n   at VeterinarianTests.addVeterinarianTestCase(String firstName) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\VeterinarianTests.cs:line 15\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+  },
+  "stage": "finished",
+  "description": "\nTearDown TearDown method failed\nChecks that veterinarian adds successfully\n",
+  "steps": [
+    {
+      "name": "addVeterinarianTestCase(\"Nick\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentException : elementDictionary (Parameter 'The specified dictionary does not contain an element reference')\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+        "trace": "   at OpenQA.Selenium.WebElementFactory.GetElementId(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebElementFactory.CreateElement(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebDriver.GetElementFromResponse(Response response)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NavigationComponent.get_veterinarianTab() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 13\r\n   at NavigationComponent.__a$_around_openVeterinariansListPage_100663305_o() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 25\r\n   at NavigationComponent.__a$_around_openVeterinariansListPage_100663305_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NavigationComponent.__a$_around_openVeterinariansListPage_100663305_w_0(Object[] )\r\n   at NavigationComponent.openVeterinariansListPage()\r\n   at VeterinarianTests.addVeterinarianTestCase(String firstName) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\VeterinarianTests.cs:line 15\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open veterinarians list page",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "elementDictionary (Parameter 'The specified dictionary does not contain an element reference')",
+            "trace": "   at OpenQA.Selenium.WebElementFactory.GetElementId(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebElementFactory.CreateElement(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebDriver.GetElementFromResponse(Response response)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NavigationComponent.get_veterinarianTab() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 13\r\n   at NavigationComponent.__a$_around_openVeterinariansListPage_100663305_o() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 25\r\n   at NavigationComponent.__a$_around_openVeterinariansListPage_100663305_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497834239,
+          "stop": 1638497834242
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0c695a1cf1c444339c4a6f0e454552da-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497699250,
+      "stop": 1638497834248
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Nick"
+    }
+  ],
+  "start": 1638497699250,
+  "stop": 1638497834248
+}

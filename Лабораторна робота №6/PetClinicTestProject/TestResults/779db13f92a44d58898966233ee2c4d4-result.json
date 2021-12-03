@@ -1,0 +1,90 @@
+{
+  "uuid": "4c58b398-3659-4da2-9877-6b759ad8ac35-tr-0-1026",
+  "historyId": "PetTypeTests.deletePetTypeTestCase(\"rabbit\")",
+  "fullName": "PetTypeTests.deletePetTypeTestCase(\"rabbit\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "deletePetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "deletePetTypeTestCase(\"rabbit\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "deletePetTypeTestCase(\"rabbit\")"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type deletes successfully\n",
+  "steps": [
+    {
+      "name": "deletePetTypeTestCase(\"rabbit\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet type page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496707624,
+          "stop": 1638496707734
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ec73f5b9525d4da0a593bda2fc95d91f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638496652708,
+      "stop": 1638496714113
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "rabbit"
+    }
+  ],
+  "start": 1638496652708,
+  "stop": 1638496714113
+}

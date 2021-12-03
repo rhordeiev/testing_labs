@@ -1,0 +1,59 @@
+{
+  "uuid": "2205756f-b358-4cb1-9c7c-7c42246fc497-tc-0-1035",
+  "name": "VisitTests.addVisitTestCase(\"Third Visit\")",
+  "children": [
+    "277b9754-66e4-4fcd-81df-22496db5cc2d-tr-0-1038"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638497881311,
+      "stop": 1638497881311
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638497881311,
+      "stop": 1638497881311
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638497881311,
+      "stop": 1638497881311
+    }
+  ],
+  "links": [],
+  "start": 1638497811032,
+  "stop": 1638497881318
+}

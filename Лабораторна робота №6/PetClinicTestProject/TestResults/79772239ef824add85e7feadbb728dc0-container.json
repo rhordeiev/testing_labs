@@ -1,0 +1,44 @@
+{
+  "uuid": "b86c9900-1b96-4c89-bdb9-9aee1493fe52-tc-0-1013",
+  "name": "VisitTests.addVisitTestCase",
+  "children": [
+    "e4a52e22-b96d-46d4-8e32-0b4e82c7b343-tr-0-1014"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638491218212,
+      "stop": 1638491218212
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638491218212,
+      "stop": 1638491218212
+    }
+  ],
+  "links": [],
+  "start": 1638491192652,
+  "stop": 1638491218225
+}

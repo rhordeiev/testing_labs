@@ -1,0 +1,59 @@
+{
+  "uuid": "5fd6f23c-781e-4f29-a033-c6b0db9c8bca-tc-0-1006",
+  "name": "PetTests.editPetTestCase(\"Cherry\")",
+  "children": [
+    "064e54d8-444c-47bd-87fe-5afadd976e0b-tr-0-1011"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496735638,
+      "stop": 1638496735638
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496735638,
+      "stop": 1638496735638
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496735638,
+      "stop": 1638496735638
+    }
+  ],
+  "links": [],
+  "start": 1638496702715,
+  "stop": 1638496735668
+}

@@ -1,0 +1,90 @@
+{
+  "uuid": "43d21247-828a-4fe5-9b41-e7e99a3ba5c0-tr-0-1027",
+  "historyId": "PetTypeTests.deletePetTypeTestCase(\"hamster\")",
+  "fullName": "PetTypeTests.deletePetTypeTestCase(\"hamster\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "deletePetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "deletePetTypeTestCase(\"hamster\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "deletePetTypeTestCase(\"hamster\")"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type deletes successfully\n",
+  "steps": [
+    {
+      "name": "deletePetTypeTestCase(\"hamster\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet type page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497951207,
+          "stop": 1638497951276
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ecf5739e32654b6a80ef913f7fbf69ac-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497936967,
+      "stop": 1638497957436
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "hamster"
+    }
+  ],
+  "start": 1638497936967,
+  "stop": 1638497957436
+}

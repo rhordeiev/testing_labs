@@ -1,0 +1,98 @@
+{
+  "uuid": "0f237bee-9f1b-4988-958f-61c3629e5a00-tr-0-1022",
+  "historyId": "PetTypeTests.editPetTypeTestCase(\"rabbit\")",
+  "fullName": "PetTypeTests.editPetTypeTestCase(\"rabbit\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "editPetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "editPetTypeTestCase(\"rabbit\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 1\r\n  But was:  0\r\n",
+    "trace": "   at PetTypeTests.editPetTypeTestCase(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 36\r\n"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type updates successfully\n",
+  "steps": [
+    {
+      "name": "editPetTypeTestCase(\"rabbit\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 1\r\n  But was:  0\r\n",
+        "trace": "   at PetTypeTests.editPetTypeTestCase(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 36\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet type page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496838621,
+          "stop": 1638496838688
+        }
+      ],
+      "attachments": [
+        {
+          "name": "editPetTypeTestCase_screenshot_637741008483500485.png",
+          "source": "7da785c77e8b44d08777766dfc871ccf-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2edee6ced88f4b518faac6131c9e6923-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638496775094,
+      "stop": 1638496848820
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "rabbit"
+    }
+  ],
+  "start": 1638496775094,
+  "stop": 1638496848820
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "cdab6dad-ddc5-4105-9dcf-74ace94e372f-tc-0-1012",
+  "name": "VeterinarianTests.addVeterinarianTestCase",
+  "children": [
+    "4b1b7c0d-d05b-495d-b093-1a246405b0a6-tr-0-1013"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1637336491126,
+      "stop": 1637336491126
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1637336491126,
+      "stop": 1637336491126
+    }
+  ],
+  "links": [],
+  "start": 1637336476336,
+  "stop": 1637336491127
+}

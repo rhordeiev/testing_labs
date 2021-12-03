@@ -1,0 +1,115 @@
+{
+  "uuid": "4f7744f3-f99a-4f5f-a73f-83b9580a2e8a-tr-0-1004",
+  "historyId": "PetTests.editPetTestCase",
+  "fullName": "PetTests.editPetTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "editPetTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTests"
+    },
+    {
+      "name": "suite",
+      "value": "Pet"
+    }
+  ],
+  "links": [],
+  "name": "editPetTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "editPetTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks that pet updates successfully\n",
+  "steps": [
+    {
+      "name": "editPetTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638493883266,
+          "stop": 1638493883382
+        },
+        {
+          "name": "Select pet's date",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638493892833,
+          "stop": 1638493893264
+        },
+        {
+          "name": "Select pet type",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638493893264,
+          "stop": 1638493893433
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c2e17b0597ba45489938ad8dfa8c7f36-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638493869071,
+      "stop": 1638493896583
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1638493869071,
+  "stop": 1638493896583
+}

@@ -1,0 +1,82 @@
+{
+  "uuid": "31f5f3ed-d00b-492e-8623-1b84e197f248-tr-0-1004",
+  "historyId": "OwnerTests.addOwnerTestCase(\"Jack\")",
+  "fullName": "OwnerTests.addOwnerTestCase(\"Jack\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addOwnerTestCase"
+    },
+    {
+      "name": "package",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "suite",
+      "value": "Owner"
+    }
+  ],
+  "links": [],
+  "name": "addOwnerTestCase(\"Jack\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : Reached error page: about:neterror?e=connectionFailure&u=http%3A//20.82.57.125%3A8080/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%2020.82.57.125%3A8080.",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24"
+  },
+  "stage": "finished",
+  "description": "\ninitializeBrowser SetUp method failed\nChecks that owner adds successfully\n",
+  "steps": [
+    {
+      "name": "addOwnerTestCase(\"Jack\") skipped because of SetUp failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : Reached error page: about:neterror?e=connectionFailure&u=http%3A//20.82.57.125%3A8080/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%2020.82.57.125%3A8080.",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "addOwnerTestCase_screenshot_637741001002316847.png",
+          "source": "a5b5ae4c074642f6b10e6a209f794066-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "fb3aafae17bd4c02a8ea8a058aeb3268-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638496036917,
+      "stop": 1638496101588
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Jack"
+    }
+  ],
+  "start": 1638496036917,
+  "stop": 1638496101589
+}

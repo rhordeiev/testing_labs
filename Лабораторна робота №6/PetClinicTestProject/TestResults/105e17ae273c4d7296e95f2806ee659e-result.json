@@ -1,0 +1,105 @@
+{
+  "uuid": "2a7847d5-a10b-4ed6-92e3-26c0c3364ae7-tr-0-1036",
+  "historyId": "VisitTests.addVisitTestCase(\"First Visit\")",
+  "fullName": "VisitTests.addVisitTestCase(\"First Visit\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "VisitTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addVisitTestCase"
+    },
+    {
+      "name": "package",
+      "value": "VisitTests"
+    },
+    {
+      "name": "suite",
+      "value": "Veterinarian"
+    }
+  ],
+  "links": [],
+  "name": "addVisitTestCase(\"First Visit\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addVisitTestCase(\"First Visit\")"
+  },
+  "stage": "finished",
+  "description": "Checks that visit adds successfully\n",
+  "steps": [
+    {
+      "name": "addVisitTestCase(\"First Visit\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497659324,
+          "stop": 1638497659458
+        },
+        {
+          "name": "Select pet's visit date",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497668694,
+          "stop": 1638497668865
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "970404409bfc4d5584f0706441af2d7e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497594904,
+      "stop": 1638497673071
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "First Visit"
+    }
+  ],
+  "start": 1638497594902,
+  "stop": 1638497673075
+}

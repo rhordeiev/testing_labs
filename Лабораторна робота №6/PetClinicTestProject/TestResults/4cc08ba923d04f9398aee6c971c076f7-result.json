@@ -1,0 +1,85 @@
+{
+  "uuid": "e4b97d6f-1401-44ae-8f10-7a32a188d110-tr-0-1007",
+  "historyId": "PetTypeTests.addPetTypeTestCase",
+  "fullName": "PetTypeTests.addPetTypeTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addPetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "addPetTypeTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addPetTypeTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type adds successfully\n",
+  "steps": [
+    {
+      "name": "addPetTypeTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet type page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491100154,
+          "stop": 1638491100224
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7673c7ce9c654c18978e74845049a1d5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638491085928,
+      "stop": 1638491106634
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1638491085928,
+  "stop": 1638491106634
+}

@@ -1,0 +1,59 @@
+{
+  "uuid": "2bfa28d7-e8db-4dd5-8d7c-af4bb0a604d6-tc-0-1006",
+  "name": "PetTests.addPetTestCase(\"Peaches\")",
+  "children": [
+    "46343c28-c747-4133-bfa2-dd5aee8d3bc2-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496471315,
+      "stop": 1638496471315
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496471315,
+      "stop": 1638496471315
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496471315,
+      "stop": 1638496471315
+    }
+  ],
+  "links": [],
+  "start": 1638496421920,
+  "stop": 1638496471319
+}

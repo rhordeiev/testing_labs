@@ -1,0 +1,120 @@
+{
+  "uuid": "dfaca56e-8879-47c1-9294-2bdfae941437-tr-0-1003",
+  "historyId": "OwnerTests.addOwnerTestCase(\"Sam\")",
+  "fullName": "OwnerTests.addOwnerTestCase(\"Sam\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addOwnerTestCase"
+    },
+    {
+      "name": "package",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "suite",
+      "value": "Owner"
+    }
+  ],
+  "links": [],
+  "name": "addOwnerTestCase(\"Sam\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addOwnerTestCase(\"Sam\")"
+  },
+  "stage": "finished",
+  "description": "Checks that owner adds successfully\n",
+  "steps": [
+    {
+      "name": "addOwnerTestCase(\"Sam\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497851563,
+          "stop": 1638497852095
+        },
+        {
+          "name": "Open new owner page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497855129,
+          "stop": 1638497855654
+        },
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497857487,
+          "stop": 1638497858329
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1a701fa35d36499cbf31d6b61cd1430a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497707808,
+      "stop": 1638497864237
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Sam"
+    }
+  ],
+  "start": 1638497707808,
+  "stop": 1638497864237
+}

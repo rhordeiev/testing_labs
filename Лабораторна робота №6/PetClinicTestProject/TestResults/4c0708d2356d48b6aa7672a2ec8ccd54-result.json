@@ -1,0 +1,85 @@
+{
+  "uuid": "7994cd52-ef02-4211-99bb-ead9d71cd8b7-tr-0-1009",
+  "historyId": "PetTypeTests.deletePetTypeTestCase",
+  "fullName": "PetTypeTests.deletePetTypeTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "deletePetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "deletePetTypeTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "deletePetTypeTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type deletes successfully\n",
+  "steps": [
+    {
+      "name": "deletePetTypeTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet type page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638491121294,
+          "stop": 1638491121361
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3f2800b78886488e9c09ec4eb931c3a4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638491106636,
+      "stop": 1638491127502
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1638491106636,
+  "stop": 1638491127502
+}

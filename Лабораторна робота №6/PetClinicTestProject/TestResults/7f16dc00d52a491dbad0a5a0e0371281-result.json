@@ -1,0 +1,120 @@
+{
+  "uuid": "46343c28-c747-4133-bfa2-dd5aee8d3bc2-tr-0-1008",
+  "historyId": "PetTests.addPetTestCase(\"Peaches\")",
+  "fullName": "PetTests.addPetTestCase(\"Peaches\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addPetTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTests"
+    },
+    {
+      "name": "suite",
+      "value": "Pet"
+    }
+  ],
+  "links": [],
+  "name": "addPetTestCase(\"Peaches\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addPetTestCase(\"Peaches\")"
+  },
+  "stage": "finished",
+  "description": "Checks that pet adds successfully\n",
+  "steps": [
+    {
+      "name": "addPetTestCase(\"Peaches\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496453589,
+          "stop": 1638496453705
+        },
+        {
+          "name": "Select pet's date",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496463617,
+          "stop": 1638496464000
+        },
+        {
+          "name": "Select pet type",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496464000,
+          "stop": 1638496465671
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f51a16f21bc147c6bb16287f7f15502a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638496421921,
+      "stop": 1638496471316
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Peaches"
+    }
+  ],
+  "start": 1638496421921,
+  "stop": 1638496471317
+}

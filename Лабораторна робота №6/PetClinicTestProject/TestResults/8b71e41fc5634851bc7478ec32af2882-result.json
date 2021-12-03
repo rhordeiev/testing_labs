@@ -1,0 +1,120 @@
+{
+  "uuid": "323ffc6d-efb6-4292-80ad-3b3847da5c56-tr-0-1004",
+  "historyId": "OwnerTests.addOwnerTestCase(\"Jack\")",
+  "fullName": "OwnerTests.addOwnerTestCase(\"Jack\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addOwnerTestCase"
+    },
+    {
+      "name": "package",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "suite",
+      "value": "Owner"
+    }
+  ],
+  "links": [],
+  "name": "addOwnerTestCase(\"Jack\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addOwnerTestCase(\"Jack\")"
+  },
+  "stage": "finished",
+  "description": "Checks that owner adds successfully\n",
+  "steps": [
+    {
+      "name": "addOwnerTestCase(\"Jack\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497905021,
+          "stop": 1638497905818
+        },
+        {
+          "name": "Open new owner page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497908855,
+          "stop": 1638497909373
+        },
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497910975,
+          "stop": 1638497911438
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4a41676e0f0743b1945bcf21ee089d71-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497864243,
+      "stop": 1638497916566
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Jack"
+    }
+  ],
+  "start": 1638497864243,
+  "stop": 1638497916566
+}

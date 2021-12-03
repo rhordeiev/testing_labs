@@ -1,0 +1,120 @@
+{
+  "uuid": "e0b17095-be1e-4f8d-a517-f94c2877da7c-tr-0-1007",
+  "historyId": "PetTests.addPetTestCase(\"Cherry\")",
+  "fullName": "PetTests.addPetTestCase(\"Cherry\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addPetTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTests"
+    },
+    {
+      "name": "suite",
+      "value": "Pet"
+    }
+  ],
+  "links": [],
+  "name": "addPetTestCase(\"Cherry\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addPetTestCase(\"Cherry\")"
+  },
+  "stage": "finished",
+  "description": "Checks that pet adds successfully\n",
+  "steps": [
+    {
+      "name": "addPetTestCase(\"Cherry\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open owners list page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496396475,
+          "stop": 1638496396590
+        },
+        {
+          "name": "Select pet's date",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496406121,
+          "stop": 1638496406771
+        },
+        {
+          "name": "Select pet type",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638496406771,
+          "stop": 1638496418585
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3769d808e479428d9bb8fcd1304c4f83-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638496312955,
+      "stop": 1638496421916
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Cherry"
+    }
+  ],
+  "start": 1638496312954,
+  "stop": 1638496421916
+}

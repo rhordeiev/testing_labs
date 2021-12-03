@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\PetClinicTestProject.csproj": {}
+    "c:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\PetClinicTestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\PetClinicTestProject.csproj": {
+    "c:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\PetClinicTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\PetClinicTestProject.csproj",
+        "projectUniqueName": "c:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\PetClinicTestProject.csproj",
         "projectName": "PetClinicTestProject",
-        "projectPath": "C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\PetClinicTestProject.csproj",
+        "projectPath": "c:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\PetClinicTestProject.csproj",
         "packagesPath": "C:\\Users\\win34\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\obj\\",
+        "outputPath": "c:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №4\\PetClinicTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -65,6 +65,14 @@
             "NUnit": {
               "target": "Package",
               "version": "[3.13.2, )"
+            },
+            "NUnit.Allure": {
+              "target": "Package",
+              "version": "[1.0.14, )"
+            },
+            "NUnit.Allure.Steps": {
+              "target": "Package",
+              "version": "[1.0.9, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",

@@ -1,0 +1,61 @@
+{
+  "uuid": "b2051516-3ff6-430b-9749-9a1396a5f793-tc-0-1001",
+  "name": "OwnerTests.addOwnerTestCase(\"Jack\")",
+  "children": [
+    "31f5f3ed-d00b-492e-8623-1b84e197f248-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496101587,
+      "stop": 1638496101587
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : Reached error page: about:neterror?e=connectionFailure&u=http%3A//20.82.57.125%3A8080/&c=UTF-8&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%2020.82.57.125%3A8080.",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496101587,
+      "stop": 1638496101587
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496101587,
+      "stop": 1638496101587
+    }
+  ],
+  "links": [],
+  "start": 1638496036917,
+  "stop": 1638496101590
+}

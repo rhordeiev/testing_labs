@@ -1,0 +1,95 @@
+{
+  "uuid": "f0e6c764-0120-4c5e-bdae-6f72af6b4617-tr-0-1018",
+  "historyId": "PetTypeTests.addPetTypeTestCase(\"rabbit\")",
+  "fullName": "PetTypeTests.addPetTypeTestCase(\"rabbit\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addPetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "addPetTypeTestCase(\"rabbit\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentException : elementDictionary (Parameter 'The specified dictionary does not contain an element reference')\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+    "trace": "   at OpenQA.Selenium.WebElementFactory.GetElementId(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebElementFactory.CreateElement(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebDriver.GetElementFromResponse(Response response)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NavigationComponent.get_petTypeTab() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 16\r\n   at NavigationComponent.__a$_around_openPetTypePage_100663308_o() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 40\r\n   at NavigationComponent.__a$_around_openPetTypePage_100663308_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NavigationComponent.__a$_around_openPetTypePage_100663308_w_0(Object[] )\r\n   at NavigationComponent.openPetTypePage()\r\n   at PetTypeTests.addPetTypeTestCase(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 14\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+  },
+  "stage": "finished",
+  "description": "\nTearDown TearDown method failed\nChecks that pet type adds successfully\n",
+  "steps": [
+    {
+      "name": "addPetTypeTestCase(\"rabbit\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentException : elementDictionary (Parameter 'The specified dictionary does not contain an element reference')\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+        "trace": "   at OpenQA.Selenium.WebElementFactory.GetElementId(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebElementFactory.CreateElement(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebDriver.GetElementFromResponse(Response response)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NavigationComponent.get_petTypeTab() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 16\r\n   at NavigationComponent.__a$_around_openPetTypePage_100663308_o() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 40\r\n   at NavigationComponent.__a$_around_openPetTypePage_100663308_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NavigationComponent.__a$_around_openPetTypePage_100663308_w_0(Object[] )\r\n   at NavigationComponent.openPetTypePage()\r\n   at PetTypeTests.addPetTypeTestCase(String petType) in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 14\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet type page",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "elementDictionary (Parameter 'The specified dictionary does not contain an element reference')",
+            "trace": "   at OpenQA.Selenium.WebElementFactory.GetElementId(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebElementFactory.CreateElement(Dictionary`2 elementDictionary)\r\n   at OpenQA.Selenium.WebDriver.GetElementFromResponse(Response response)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NavigationComponent.get_petTypeTab() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 16\r\n   at NavigationComponent.__a$_around_openPetTypePage_100663308_o() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\Components\\NavigationComponent.cs:line 40\r\n   at NavigationComponent.__a$_around_openPetTypePage_100663308_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497821747,
+          "stop": 1638497821750
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c0437d4d90e44734989579c082b9c058-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497676105,
+      "stop": 1638497821754
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "rabbit"
+    }
+  ],
+  "start": 1638497676105,
+  "stop": 1638497821754
+}

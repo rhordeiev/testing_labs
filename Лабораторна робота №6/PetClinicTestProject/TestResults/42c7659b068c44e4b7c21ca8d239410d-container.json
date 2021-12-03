@@ -1,0 +1,59 @@
+{
+  "uuid": "9dcc1269-8516-49b6-8a07-c9fdafb23e4e-tc-0-1001",
+  "name": "OwnerTests.addOwnerTestCase(\"Jack\")",
+  "children": [
+    "8702b9a4-a1b3-4b03-aec2-fb257f3f197c-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496601985,
+      "stop": 1638496601985
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496601985,
+      "stop": 1638496601985
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496601985,
+      "stop": 1638496601985
+    }
+  ],
+  "links": [],
+  "start": 1638496527751,
+  "stop": 1638496601987
+}

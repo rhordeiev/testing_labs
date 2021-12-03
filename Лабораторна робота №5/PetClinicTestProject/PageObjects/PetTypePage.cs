@@ -4,7 +4,6 @@ public class PetTypePage:BasePage {
     public IWebElement addPetTypeButton => driver.FindElement(By.CssSelector(".addPet"));
     public IWebElement editPetTypeButton => driver.FindElement(By.CssSelector("tr:nth-child(4) .editPet"));
     public IWebElement nameField => driver.FindElement(By.Id("name"));
-    public string getThirdPetTypeElementValue => driver.FindElement(By.Id("2")).GetAttribute("value");
     public IWebElement savePetTypeButton => driver.FindElement(By.CssSelector(".saveType"));
     public IWebElement updatePetTypeButton => driver.FindElement(By.CssSelector(".updatePetType"));
     public IWebElement deletePetTypeButton => driver.FindElement(By.CssSelector("tr:nth-child(3) .deletePet"));

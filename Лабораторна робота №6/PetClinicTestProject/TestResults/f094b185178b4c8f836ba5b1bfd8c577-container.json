@@ -1,0 +1,63 @@
+{
+  "uuid": "81d8dfa3-e366-447e-a73d-7f45ed613c5f-tc-0-1035",
+  "name": "VisitTests.addVisitTestCase(\"First Visit\")",
+  "children": [
+    "9b592c0a-69a7-4b42-939b-c46b8b0a7068-tr-0-1036"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638495871644,
+      "stop": 1638495871644
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+        "trace": "   at OpenQA.Selenium.Response..ctor(Dictionary`2 rawResponse)\r\n   at OpenQA.Selenium.Response.FromJson(String value)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(HttpResponseInfo responseInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638495871644,
+      "stop": 1638495871644
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.\r\nTearDown : System.FormatException : The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.",
+        "trace": "   at OpenQA.Selenium.Response..ctor(Dictionary`2 rawResponse)\r\n   at OpenQA.Selenium.Response.FromJson(String value)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(HttpResponseInfo responseInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at TestBrowser.initializeBrowser() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBrowser.cs:line 24\r\n--TearDown\r\n   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)\r\n   at System.Convert.FromBase64String(String s)\r\n   at OpenQA.Selenium.EncodedFile..ctor(String base64EncodedFile)\r\n   at OpenQA.Selenium.Screenshot..ctor(String base64EncodedScreenshot)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at TestBase.TearDown() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №7\\PetClinicTestProject\\TestBase.cs:line 32"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638495871644,
+      "stop": 1638495871644
+    }
+  ],
+  "links": [],
+  "start": 1638495686872,
+  "stop": 1638495871691
+}

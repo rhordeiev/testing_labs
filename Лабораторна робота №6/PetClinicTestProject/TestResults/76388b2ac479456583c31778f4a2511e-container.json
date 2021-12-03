@@ -1,0 +1,59 @@
+{
+  "uuid": "35f7941a-26e2-4f7d-978a-fa3ba2995eb8-tc-0-1016",
+  "name": "PetTypeTests.editPetTypeTestCase(\"rabbit\")",
+  "children": [
+    "c1f01368-cdca-4eaa-860c-c4b00549d082-tr-0-1022"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638498006725,
+      "stop": 1638498006725
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638498006725,
+      "stop": 1638498006725
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638498006725,
+      "stop": 1638498006725
+    }
+  ],
+  "links": [],
+  "start": 1638497984948,
+  "stop": 1638498006727
+}

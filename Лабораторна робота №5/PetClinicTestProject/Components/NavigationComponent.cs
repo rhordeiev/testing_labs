@@ -11,9 +11,16 @@ public class NavigationComponent {
     public IWebElement ownerTabNewOwnerItem => driver.FindElement(By.CssSelector(".open li:nth-child(2) span:nth-child(2)"));
     public IWebElement veterinarianTab => driver.FindElement(By.CssSelector(".vetsTab"));
     public IWebElement veterinarianTabNewOwnerItem => driver.FindElement(By.CssSelector(".open li:nth-child(2) > a"));
+    public IWebElement listItem => driver.FindElement(By.CssSelector(".open li:nth-child(1) > a"));
     public IWebElement petTypeTab => driver.FindElement(By.CssSelector("li:nth-child(4) span:nth-child(2)"));
-    public IWebElement specialtyTab => driver.FindElement(By.CssSelector("li:nth-child(5) > a"));
-
+    public void openOwnersListPage() {
+        ownerTab.Click();
+        listItem.Click();
+    }
+    public void openVeterinariansListPage() {
+        veterinarianTab.Click();
+        listItem.Click();
+    }
     public void openNewOwnerPage() {
         ownerTab.Click();
         ownerTabNewOwnerItem.Click();
@@ -24,8 +31,5 @@ public class NavigationComponent {
     }
     public void openPetTypePage() {
         petTypeTab.Click();
-    }
-    public void openSpecialtyPage() {
-        specialtyTab.Click();
     }
 }

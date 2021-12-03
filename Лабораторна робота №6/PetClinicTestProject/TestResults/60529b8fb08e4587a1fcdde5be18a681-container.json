@@ -1,0 +1,59 @@
+{
+  "uuid": "7c36575b-67ac-46fb-bafa-269b0c818992-tc-0-1016",
+  "name": "PetTypeTests.homeButtonTestCase",
+  "children": [
+    "26d83ddf-6dcb-463e-a926-8345fda5bb45-tr-0-1029"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496974526,
+      "stop": 1638496974526
+    },
+    {
+      "name": "initializeBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496974526,
+      "stop": 1638496974526
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1638496974526,
+      "stop": 1638496974526
+    }
+  ],
+  "links": [],
+  "start": 1638496908562,
+  "stop": 1638496974528
+}

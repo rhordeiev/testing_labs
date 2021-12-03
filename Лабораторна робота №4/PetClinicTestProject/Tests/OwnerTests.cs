@@ -7,6 +7,10 @@ public class OwnerTests:TestBase {
   public void addOwnerTestCase() {
     var newOwnerPage = new NewOwnerPage(driver);
     driver.FindElement(By.CssSelector(".ownerTab")).Click();
+    driver.FindElement(By.CssSelector(".open li:nth-child(1) > a")).Click();
+    Wait();
+    int previousOwnerCount = driver.FindElements(By.CssSelector(".petOwner")).Count;
+    driver.FindElement(By.CssSelector(".ownerTab")).Click();
     driver.FindElement(By.CssSelector(".open li:nth-child(2) span:nth-child(2)")).Click();
     newOwnerPage.firstNameField.Click();
     newOwnerPage.firstNameField.SendKeys("Max");
@@ -19,5 +23,10 @@ public class OwnerTests:TestBase {
     newOwnerPage.telephoneField.Click();
     newOwnerPage.telephoneField.SendKeys("1718232111");
     newOwnerPage.addOwnerButton.Click();
+    driver.FindElement(By.CssSelector(".ownerTab")).Click();
+    driver.FindElement(By.CssSelector(".open li:nth-child(1) > a")).Click();
+    Wait();
+    int ownerCount = driver.FindElements(By.CssSelector(".petOwner")).Count;
+    Assert.That(previousOwnerCount + 1, Is.EqualTo(ownerCount));
   }
 }

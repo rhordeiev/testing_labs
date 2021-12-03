@@ -1,0 +1,44 @@
+{
+  "uuid": "318510cc-7295-44be-b399-324d6f5ecaf1-tc-0-1000",
+  "name": "NavigationTests.ownerTabTestCase",
+  "children": [
+    "eeee35d6-d3fe-487b-8760-3af6b1aa94c9-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1637335651973,
+      "stop": 1637335651973
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1637335651973,
+      "stop": 1637335651973
+    }
+  ],
+  "links": [],
+  "start": 1637335608643,
+  "stop": 1637335651997
+}

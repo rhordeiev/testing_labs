@@ -1,0 +1,69 @@
+{
+  "uuid": "cc0a0781-92a9-4382-8d85-31d3779aa969-tr-0-1011",
+  "historyId": "PetTypeTests.homeButtonTestCase",
+  "fullName": "PetTypeTests.homeButtonTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "homeButtonTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "homeButtonTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "homeButtonTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks that return to home page button works successfully\n",
+  "steps": [
+    {
+      "name": "homeButtonTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f4f342c9138a45df988c986980752823-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637336465609,
+      "stop": 1637336476334
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637336465609,
+  "stop": 1637336476334
+}

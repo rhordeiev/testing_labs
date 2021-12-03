@@ -1,0 +1,68 @@
+{
+  "uuid": "ea27c06e-103d-4db1-923e-8ee51b646634-tr-0-1006",
+  "historyId": "OwnerTests.addOwnerTestCase",
+  "fullName": "OwnerTests.addOwnerTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addOwnerTestCase"
+    },
+    {
+      "name": "package",
+      "value": "OwnerTests"
+    },
+    {
+      "name": "suite",
+      "value": "Owner"
+    }
+  ],
+  "links": [],
+  "name": "addOwnerTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addOwnerTestCase"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "addOwnerTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2aab241086d047eca257b56e14bc9839-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637335687346,
+      "stop": 1637335698562
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637335687346,
+  "stop": 1637335698562
+}

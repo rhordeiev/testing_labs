@@ -1,0 +1,77 @@
+{
+  "uuid": "a0df0d86-3590-42e1-a014-2dcbcd04696e-tr-0-1010",
+  "historyId": "PetTypeTests.deletePetTypeTestCase",
+  "fullName": "PetTypeTests.deletePetTypeTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "deletePetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "deletePetTypeTestCase",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 6 but was 15. Strings differ at index 0.\r\n  Expected: \"lizard\"\r\n  But was:  \"pet type 1mouse\"\r\n  -----------^\r\n",
+    "trace": "   at PetTypeTests.deletePetTypeTestCase() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №6\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 29\r\n"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type deletes successfully\n",
+  "steps": [
+    {
+      "name": "deletePetTypeTestCase",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 6 but was 15. Strings differ at index 0.\r\n  Expected: \"lizard\"\r\n  But was:  \"pet type 1mouse\"\r\n  -----------^\r\n",
+        "trace": "   at PetTypeTests.deletePetTypeTestCase() in C:\\Users\\win34\\Desktop\\Якість програмного забезпечення та тестування\\Лабораторна робота №6\\PetClinicTestProject\\Tests\\PetTypeTests.cs:line 29\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "deletePetTypeTestCase_screenshot_637729404472244047.png",
+          "source": "8e4806f30150453687f34c5cfeca626f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "cf212938693b4475a6b794234765e3c3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637336431253,
+      "stop": 1637336449006
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637336431253,
+  "stop": 1637336449006
+}

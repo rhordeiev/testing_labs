@@ -1,0 +1,90 @@
+{
+  "uuid": "2c591dd8-34f3-4a11-9e5a-e014d675b226-tr-0-1019",
+  "historyId": "PetTypeTests.addPetTypeTestCase(\"hamster\")",
+  "fullName": "PetTypeTests.addPetTypeTestCase(\"hamster\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addPetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "addPetTypeTestCase(\"hamster\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addPetTypeTestCase(\"hamster\")"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type adds successfully\n",
+  "steps": [
+    {
+      "name": "addPetTypeTestCase(\"hamster\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet type page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1638497866668,
+          "stop": 1638497866870
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2e755e42036b4c1798d5b0bcbe47d741-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1638497821756,
+      "stop": 1638497876484
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "hamster"
+    }
+  ],
+  "start": 1638497821756,
+  "stop": 1638497876484
+}

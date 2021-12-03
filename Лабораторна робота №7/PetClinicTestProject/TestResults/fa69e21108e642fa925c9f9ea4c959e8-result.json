@@ -1,0 +1,69 @@
+{
+  "uuid": "d157f253-333f-4117-8d3e-07d841afc03e-tr-0-1008",
+  "historyId": "PetTypeTests.addPetTypeTestCase",
+  "fullName": "PetTypeTests.addPetTypeTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addPetTypeTestCase"
+    },
+    {
+      "name": "package",
+      "value": "PetTypeTests"
+    },
+    {
+      "name": "suite",
+      "value": "PetType"
+    }
+  ],
+  "links": [],
+  "name": "addPetTypeTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addPetTypeTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks that pet type adds successfully\n",
+  "steps": [
+    {
+      "name": "addPetTypeTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2e4db9d024d5426ba25f1aef9c35c7a6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637340176615,
+      "stop": 1637340198387
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637340176615,
+  "stop": 1637340198387
+}

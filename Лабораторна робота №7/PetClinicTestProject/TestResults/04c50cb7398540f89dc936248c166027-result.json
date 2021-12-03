@@ -1,0 +1,85 @@
+{
+  "uuid": "4b1b7c0d-d05b-495d-b093-1a246405b0a6-tr-0-1013",
+  "historyId": "VeterinarianTests.addVeterinarianTestCase",
+  "fullName": "VeterinarianTests.addVeterinarianTestCase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MBVL60T"
+    },
+    {
+      "name": "testClass",
+      "value": "VeterinarianTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "addVeterinarianTestCase"
+    },
+    {
+      "name": "package",
+      "value": "VeterinarianTests"
+    },
+    {
+      "name": "suite",
+      "value": "Veterinarian"
+    }
+  ],
+  "links": [],
+  "name": "addVeterinarianTestCase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "addVeterinarianTestCase"
+  },
+  "stage": "finished",
+  "description": "Checks that veterinarian adds successfully\n",
+  "steps": [
+    {
+      "name": "addVeterinarianTestCase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Select veterinarian' specialty",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1637336490723,
+          "stop": 1637336490858
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "df04ddd936a64a21b4aa900ce55bfd0e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1637336476336,
+      "stop": 1637336491127
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1637336476336,
+  "stop": 1637336491127
+}
