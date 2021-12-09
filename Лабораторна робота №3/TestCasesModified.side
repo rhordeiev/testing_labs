@@ -1,0 +1,533 @@
+{
+  "id": "491c6720-38d8-442e-b3e2-e002ff694a52",
+  "version": "2.0",
+  "name": "TestCasesModified",
+  "url": "http://20.50.171.10:8080/",
+  "tests": [{
+    "id": "54f54701-da63-498a-b5af-ef352920916e",
+    "name": "TestCase1Modified",
+    "commands": [{
+      "id": "0d858399-1bdb-49ef-83aa-5bf9a4273800",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa4830fc-5961-4d8d-bc77-07c7e7c005e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab",
+      "targets": [
+        ["css=.ownerTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Owners')]", "xpath:link"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6894a7ba-b8d3-40d5-91c4-c37dbc860c8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) > a",
+      "targets": [
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/owners')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d9a748c-492e-480c-ae6d-43ac7f9cf904",
+      "comment": "",
+      "command": "click",
+      "target": "css=.petOwner:nth-child(1) a",
+      "targets": [
+        ["linkText=George Franklin", "linkText"],
+        ["css=.petOwner:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'George Franklin')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/petclinic/owners/1')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'George Franklin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17b600c9-9e5a-43a2-9cb6-cd0d84847691",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addNewPet",
+      "targets": [
+        ["css=.addNewPet", "css:finder"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add New Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88664bd0-adac-4fdc-830d-4a6c303667a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6142f64-0eda-4680-afd4-5e583e58bef4",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Cherry"
+    }, {
+      "id": "9789ecd6-55bd-46e9-9ebb-16d5320babfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-datepicker-toggle-default-icon",
+      "targets": [
+        ["css=.mat-datepicker-toggle-default-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "828f8e5c-d250-4807-aeac-b5805c72fc0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-calendar-period-button > .mat-button-wrapper",
+      "targets": [
+        ["css=.mat-calendar-period-button > .mat-button-wrapper", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'12 2021')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bb9b637-cede-48ac-8704-a6eca22fab9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(1) > .mat-calendar-body-cell:nth-child(2) > .mat-calendar-body-cell-content",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) > .mat-calendar-body-cell:nth-child(2) > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-multi-year-view/table/tbody/tr/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3283198e-ae07-4e5d-a90b-3bad15f0701e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(4) > .mat-calendar-body-cell:nth-child(3) > .mat-calendar-body-cell-content",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(4) > .mat-calendar-body-cell:nth-child(3) > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-year-view/table/tbody/tr[4]/td[3]/div", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bd357b9-fb4a-4bef-94a0-a426161ce7bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(4) > .mat-calendar-body-cell:nth-child(2) > .mat-calendar-body-cell-content",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(4) > .mat-calendar-body-cell:nth-child(2) > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[4]/td[2]/div", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3a8389f-fef9-4774-a1c3-d280b44e32c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=type",
+      "targets": [
+        ["id=type", "id"],
+        ["name=type", "name"],
+        ["css=#type", "css:finder"],
+        ["xpath=//select[@id='type']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57e037f5-be97-4bae-8021-03d093d64168",
+      "comment": "",
+      "command": "select",
+      "target": "id=type",
+      "targets": [],
+      "value": "label=lizard"
+    }, {
+      "id": "6eb6be52-f243-4452-9166-b170535a0ff8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.savePet",
+      "targets": [
+        ["css=.savePet", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dc5c1e41-5e02-4dfc-80e2-32f7bb704660",
+    "name": "TestCase2Modified",
+    "commands": [{
+      "id": "7a9fb694-23cd-409c-bdff-ab1c3add1a5c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15a58cb4-d2b6-43ab-99cd-a14954de6e6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab",
+      "targets": [
+        ["css=.ownerTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Owners')]", "xpath:link"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de55e7a4-9b58-45e1-94cd-1e99ed6af2f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) span:nth-child(2)",
+      "targets": [
+        ["css=.open li:nth-child(1) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e819f8a-59ef-4a99-a559-4b81fc62e3bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.petOwner:nth-child(1) a",
+      "targets": [
+        ["linkText=George Franklin", "linkText"],
+        ["css=.petOwner:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'George Franklin')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/petclinic/owners/1')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'George Franklin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d14af179-dbc1-46ad-b348-87e3bb3ec126",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addNewVisit",
+      "targets": [
+        ["css=.addNewVisit", "css:finder"],
+        ["xpath=//dl/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Visit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a813dbad-885b-414b-8faf-3f651135ea1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bacb6c90-53be-4f80-b6aa-0a587e0e7ff4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(5) > .mat-calendar-body-cell:nth-child(4) > .mat-calendar-body-cell-content",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(5) > .mat-calendar-body-cell:nth-child(4) > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[5]/td[4]/div", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02957fe1-98c4-4931-a5bd-0fd1ab70a292",
+      "comment": "",
+      "command": "click",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//input[@id='description']", "xpath:attributes"],
+        ["xpath=//form[@id='visit']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "396fff16-4f5f-4a02-8b49-81d22bd8bec3",
+      "comment": "",
+      "command": "type",
+      "target": "id=description",
+      "targets": [
+        ["id=description", "id"],
+        ["name=description", "name"],
+        ["css=#description", "css:finder"],
+        ["xpath=//input[@id='description']", "xpath:attributes"],
+        ["xpath=//form[@id='visit']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "New visit"
+    }, {
+      "id": "34253d21-8105-4e8d-91e9-7c29b7c6646c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addVisit",
+      "targets": [
+        ["css=.addVisit", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='visit']/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Visit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2a42c097-2eb5-4614-b091-d4bd16d9b2a2",
+    "name": "TestCase3Modified",
+    "commands": [{
+      "id": "92a2450a-5703-42d7-b1ac-ca98a9c9bb55",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2aec6ca5-4b41-4db2-9304-b94d5520ba48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab",
+      "targets": [
+        ["css=.ownerTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Owners')]", "xpath:link"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70835a76-30fb-4a85-b932-2c10df1cb788",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) > a",
+      "targets": [
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/owners')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4fb0901-6c1b-4ee9-b0f8-5abddc9a2bf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.petOwner:nth-child(1) a",
+      "targets": [
+        ["linkText=George Franklin", "linkText"],
+        ["css=.petOwner:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'George Franklin')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/petclinic/owners/1')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'George Franklin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c45728ff-179b-4380-a38d-c0ca60ea5125",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-pet-list:nth-child(1) .deletePet",
+      "targets": [
+        ["css=app-pet-list:nth-child(1) .deletePet", "css:finder"],
+        ["xpath=//dl/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "669ec1be-d195-4d88-8e1a-3460b69f5749",
+    "name": "TestCase4Modified",
+    "commands": [{
+      "id": "6008625f-1739-4cf0-8798-a0cc37408400",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "705badb6-a748-4f56-9aa7-51254331b65e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab",
+      "targets": [
+        ["css=.ownerTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Owners')]", "xpath:link"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d4d69b-950d-4d3d-b502-1f0f43c22b39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) > a",
+      "targets": [
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/owners')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ec1f85c-6344-4762-a5c4-110ab4fa4a6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.petOwner:nth-child(1) a",
+      "targets": [
+        ["linkText=George Franklin", "linkText"],
+        ["css=.petOwner:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'George Franklin')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/petclinic/owners/1')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'George Franklin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "669f03d4-0be1-4c2d-b97b-d575dc2c9be1",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-pet-list:nth-child(1) .editPet",
+      "targets": [
+        ["css=app-pet-list:nth-child(1) .editPet", "css:finder"],
+        ["xpath=//dl/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Edit Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5198c609-ce63-467f-8154-b27e82c8c578",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44e038d0-dad9-4570-8189-7f833cd3981c",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Peaches"
+    }, {
+      "id": "b8c7fe76-71bc-4f23-9c04-c7dec72ee679",
+      "comment": "",
+      "command": "click",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "735e6975-9a74-4e10-80fb-5105ea75557e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mat-calendar-period-button > .mat-button-wrapper",
+      "targets": [
+        ["css=.mat-calendar-period-button > .mat-button-wrapper", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/mat-calendar-header/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'11 2017')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe6640aa-6f5f-49b7-989b-532199825408",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(1) > .mat-calendar-body-cell:nth-child(3) > .mat-calendar-body-cell-content",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) > .mat-calendar-body-cell:nth-child(3) > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-multi-year-view/table/tbody/tr/td[3]/div", "xpath:idRelative"],
+        ["xpath=//td[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d996cb3-9d71-4cfc-ac58-d3f978994926",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(2) > .mat-calendar-body-cell:nth-child(4) > .mat-calendar-body-cell-content",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(2) > .mat-calendar-body-cell:nth-child(4) > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-year-view/table/tbody/tr[2]/td[4]/div", "xpath:idRelative"],
+        ["xpath=//td[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4422de00-b691-44d7-b44e-d6479a9397c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(3) > .mat-calendar-body-cell:nth-child(4) > .mat-calendar-body-cell-content",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(3) > .mat-calendar-body-cell:nth-child(4) > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[3]/td[4]/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "789ba75f-3faf-436a-8bc7-300ae980de88",
+      "comment": "",
+      "command": "click",
+      "target": "id=type",
+      "targets": [
+        ["id=type", "id"],
+        ["name=type", "name"],
+        ["css=#type", "css:finder"],
+        ["xpath=//select[@id='type']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "503aa492-42fc-4224-b967-2bd66e07d4f3",
+      "comment": "",
+      "command": "select",
+      "target": "id=type",
+      "targets": [],
+      "value": "label=snake"
+    }, {
+      "id": "7c9a986f-7586-4e3c-8db1-903aa551e943",
+      "comment": "",
+      "command": "click",
+      "target": "css=.updatePet",
+      "targets": [
+        ["css=.updatePet", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Update Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c53e8568-43d8-46b9-8bfe-c17a0e5c00d7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["54f54701-da63-498a-b5af-ef352920916e", "dc5c1e41-5e02-4dfc-80e2-32f7bb704660", "2a42c097-2eb5-4614-b091-d4bd16d9b2a2", "669ec1be-d195-4d88-8e1a-3460b69f5749"]
+  }],
+  "urls": ["http://20.50.171.10:8080/"],
+  "plugins": []
+}
